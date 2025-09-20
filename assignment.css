@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(160, 233, 160);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#wrapper {
+    background-color: aliceblue;
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+}
+
+main {
+    display: flex;
+}
+
+#homework {
+    flex: 4;
+    background-color: rgb(187, 243, 194);
+    padding-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 25px;
+
+}
+
+#milestones {
+    background-color: rgb(255, 255, 255);
+    flex: 3;
+    padding-left: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 25px;
+
+    
+}
+
+#terms {
+    flex: 4;
+    background-color: rgb(187, 243, 194);
+    border: 1px black;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 25px;
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(14, 62, 14);
+    padding: 15px;
+    margin-top: 25px;
+    border: 7px solid rgb(134, 242, 148);
+}
+
+h2 {
+    padding-left: 15px;
+}
+footer a{
+    color: white;
+    padding: 5px;
+}
+
+/*mobile style */
+@media (max-width:600px){ 
+    /*the important styles */
+    #wrapper{width: 100%; padding: 15px;}
+    header {width: 100%;}
+    main {  flex-direction: column;
+            width: 100%;
+            padding: 15px;
+            padding-left: 5px;}  
+    footer { width: 95%;
+            padding-right: 5px;}    
+}
