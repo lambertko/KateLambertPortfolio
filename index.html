@@ -1,48 +1,60 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <title> My Portfolio! </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kate Lambert | Portfolio</title>
     <link rel="stylesheet" href="assignment.css">
 </head>
+
 <body>
     <div id="wrapper">
-    <header>
-        <img src="semester_banner.jpg" alt="my profile banner" height="250">
-    </header>
+        <header>
+            <img src="semester_banner.jpg" alt="Portfolio banner for Kate Lambert" class="banner">
+            <h1>Kate Lambert</h1>
+            <p class="tagline">Computer Science and Digital Designer Student at College of Charleston</p>
+        </header>
 
-<main>
-    <div id="Projects">
-<h2> My Projects!</h2>
-<ol>
-    <li>
-    <a href="artists/artistIndex.html">Artist Webpage</a>
-    </li>
-    <li>
-        <a href="semesterProject/final website/index.html">Pottery Webpage</a>
-    </li>
-</ol>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
 
-    <div id="terms">
-<h2> Contact me!</h2>
-<dl>
-<dt>Personal Email: <a href="mailto:kalambert04@gmail.com"> <br>kalambert04@gmail.com</a></dt>
-<dt>LinkedIn: https://www.linkedin.com/in/kate-lambert-6258231a3/</dt>
-<dt>Phone: (813)375-1360 </dt>
-</dl>
-    </div>
+        <main>
+            <section id="projects">
+                <h2>My Projects</h2>
+                <div class="project-list">
+                    <div class="project-card">
+                        <h3>🎨 Artist Webpage</h3>
+                        <p>Explore my artist profile site built with HTML and CSS.</p>
+                        <a href="artists/artistIndex.html" class="btn">View Project</a>
+                    </div>
 
+                    <div class="project-card">
+                        <h3>🪴 Pottery Webpage</h3>
+                        <p>A creative semester project showcasing handmade pottery designs.</p>
+                        <a href="semesterProject/final website/index.html" class="btn">View Project</a>
+                    </div>
+                </div>
+            </section>
 
-</main>
-<footer>
-    <p>My College of Charleston email is: <a href="mailto:lambertko@g.cofc.edu"> <br>lambertko@g.cofc.edu</a></p>
-</footer>
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>Interested in collaborating or just want to say hi? Reach out!</p>
+                <ul class="contact-info">
+                    <li><strong>Email:</strong> <a href="mailto:kalambert04@gmail.com">kalambert04@gmail.com</a></li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kate-lambert-6258231a3/" target="_blank">linkedin.com/in/kate-lambert</a></li>
+                    <li><strong>Phone:</strong> (813) 375-1360</li>
+                    <li><strong>College Email:</strong> <a href="mailto:lambertko@g.cofc.edu">lambertko@g.cofc.edu</a></li>
+                </ul>
+            </section>
+        </main>
 
+        <footer>
+            <p>© 2025 Kate Lambert — Designed with ❤️ for my Web Design course</p>
+        </footer>
     </div>
 </body>
-
-
-
 </html>
